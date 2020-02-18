@@ -1,0 +1,66 @@
+.mainContainer {
+    position: relative;
+    background-color: white;
+    width: 600px;
+    height: 807px;
+    left: 650px;
+    border: solid 3px;
+    border-radius: 4px;
+}
+
+.mainContainer div {
+    background: #eee0;
+}
+
+.screen {
+    position: relative;
+    display: inline-block;
+    height: 300px;
+    width: 600px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+.screenA   {
+    position:relative;
+    display:block;
+    float: right;
+    top:120px;
+    font-size:25px;
+    right:20px;
+}
+.screenB   {
+    position:relative;
+    display:block;
+    float: right;
+    top:170px;
+    font-size:45px;
+
+}
+
+
+.buttonsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 500px;
+}
+
+.buttonsContainer .button {
+    text-align: center;
+    position: relative;
+    line-height: 100px;
+}
+
+.buttonsContainer .button span {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(109, 109, 109);
+    font-weight: lighter;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.buttonsContainer .operator {
+    background-color: #0000ff0f;
+}
